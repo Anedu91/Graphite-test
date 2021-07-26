@@ -47,7 +47,8 @@ const rulesForJavascript = {
           runtime: 'automatic' 
         }
       ]  
-    ]
+    ],
+    plugins: ['@babel/plugin-transform-runtime']
   }
 }
 
