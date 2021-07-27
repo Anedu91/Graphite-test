@@ -5,23 +5,23 @@
 
 `npm install`
 
-The Server and the Frontend it will be running in different ports:
+The backend and the frontend will be running in different ports:
 
-### Running server
+### Running backend server
 
-1. `npm run server` (The server will run in localhost port 3000)
+1. `npm run server` (the backend will run in localhost port 3000)
 
-### Running the Frontend
+### Running the frontend server
 
-1. `npm run dev` (It will run the frontend in localhost port 9000)
+1. `npm run dev` (the frontend will run in localhost port 9000)
 
 ## Description
 
-This is a fullstack webapp test. That consist in list, filter and search a group of recipes.
+This is a fullstack webapp test, which consists in listing, filtering and searching a set of recipes.
 
 ## Approach
 
-For this application I decided to use React as a frontend Library and Express as a backend framework.
+For this application I decided to use React as a frontend library and Express as a backend framework.
 
 ### Frontend
 
