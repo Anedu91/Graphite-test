@@ -25,10 +25,10 @@ For this application I decided to use React as a frontend library and Express as
 
 ### Frontend
 
-For styling the app I used *[Tailwindcss](https://tailwindcss.com/)*, is a utility-first CSS framework that help us to create interfaces very quickly. It has a PostCSS config that help us to use the latest features of the languague.
+For styling the app I used *[Tailwindcss](https://tailwindcss.com/)*, wich a utility-first CSS framework that help us to create interfaces very quickly. It has a PostCSS config that help us to use the latest features of the languague.
 
-For bundle the assests, styles and js files I used *[Webpack](https://webpack.js.org/)*.
+To bundle the assests, styles and js files, I used *[Webpack](https://webpack.js.org/)*.
 
 ### Backend
 
-For the backend I used *[express](https://expressjs.com/es/)*, with a simple configuration adapted to the project's needs.
+For the backend I used *[Express](https://expressjs.com/es/)*, with a simple configuration adapted to the project's needs.
