@@ -31,4 +31,4 @@ To bundle the assests, styles and js files, I used *[Webpack](https://webpack.js
 
 ### Backend
 
-For the backend I used *[Express](https://expressjs.com/es/)*, with a simple configuration adapted to the project's needs.
+For the backend, I used *[Express](https://expressjs.com/es/)* with a simple configuration adapted to the project's needs.
