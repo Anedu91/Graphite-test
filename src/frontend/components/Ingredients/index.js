@@ -1,35 +1,15 @@
-import { useRef, useState } from "react"
-
-
-const Ingredients = ({name, setFilterIngredients})=>{
-  
-const [isChecked, setIsChecked] = useState(true);
-const checkBox = useRef(null)
-
-const handleOnChange = ()=>{
-     setIsChecked(!isChecked)
-  
-     
-    if(isChecked){
-      setFilterIngredients(oldArray=> [...oldArray, checkBox.current.value])
-    }else{
-      setFilterIngredients(oldArray => oldArray.filter(value => value !== checkBox.current.value))
-    }
-  
-
-}
-  
+const Ingredients = ({name, handleInputChange})=>{
+   
   
 return (
   
-  <div className="border-white border">
+  
     <label className="p-2 | flex space-x-2 items-center | cursor-pointer">
-      <span>
+      <span className="capitalize font-normal">
       {name}
       </span>
-      <input type="checkbox" ref={checkBox} name="ingredients" value={name} onChange={handleOnChange} />    
+      <input type="checkbox" className="form-checkbox text-indigo-600" name={name} value={name} onChange={handleInputChange} />    
     </label>
-  </div>
 )
 }
 export default Ingredients

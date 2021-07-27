@@ -4,11 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "",
     "server": "babel-node src/backend/index.js",
     "build-front": "webpack --mode=development",
-    "dev": "webpack serve --mode=development",
-    "prod-front": "webpack --mode=production"
+    "dev": "webpack serve --mode=development"
   },
   "keywords": [],
   "author": "",
@@ -21,6 +20,7 @@
     "express": "^4.17.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-router-dom": "^5.2.0",
     "react-icons": "^4.2.0"
   },
   "devDependencies": {
@@ -30,14 +30,19 @@
     "@babel/plugin-transform-runtime": "^7.14.5",
     "@babel/preset-env": "^7.14.8",
     "@babel/preset-react": "^7.14.5",
+    "@tailwindcss/custom-forms": "^0.2.1",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.0.0",
     "autoprefixer": "^10.3.1",
+    "babel-jest": "^27.0.6",
     "babel-loader": "^8.2.2",
     "css-loader": "^6.2.0",
     "html-webpack-plugin": "^5.3.2",
+    "jest": "^27.0.6",
     "mini-css-extract-plugin": "^2.1.0",
     "postcss": "^8.3.6",
-    "postcss-loader": "^6.1.1",
-    "react-router-dom": "^5.2.0",
+    "postcss-loader": "^6.1.1",    
+    "react-test-renderer": "^17.0.2",
     "style-loader": "^3.2.1",
     "tailwindcss": "^2.2.7",
     "webpack": "^5.46.0",
