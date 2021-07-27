@@ -11,7 +11,7 @@ The backend and the frontend will be running in different ports:
 
 1. `npm run server` (the backend will run in localhost port 3000)
 
-### Running the frontend server
+### Running frontend server
 
 1. `npm run dev` (the frontend will run in localhost port 9000)
 
